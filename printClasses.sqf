@@ -1,4 +1,4 @@
-modTag = ["NORTH"];
+modTag = ["NORTH"]; //modFilter based on mod prefix
 //base filter function
 TWZ_filter = {
 params ["_item"];
@@ -171,7 +171,7 @@ alldata = [["CfgWeapons",allCfgWeaponsData],["CfgAmmo",allCfgAmmoData],["CfgFace
 //ASCII control characters
 _br = toString [13,10]; //carriage return, line feed
 _tab = toString [9];	//horizontal tab
-//print _output
+//create _output
 outPut = [];
 {
 	{
@@ -251,3 +251,5 @@ outPut = [];
 		};
 	} forEach _x;
 } forEach allData;
+//print output
+copyToClipboard (output joinString "");
