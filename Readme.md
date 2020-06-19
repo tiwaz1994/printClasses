@@ -4,7 +4,5 @@ Also contains a prefix filter, to filter out and only display a certain mod or m
 
 Possibly WIP features:
 - more information displayed next to classes, for ex: displayName, compatible magazines
-- HTML output - for fancy tables you could throw up on wiki's
-- more categories and types
 - simple popup allowing you to switch between different outputs and loaded mods
 - mission that inits the script for easier use
